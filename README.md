@@ -11,9 +11,9 @@ short description what it is.
 
 ## Other
 - How to create nice README files
-  - https://carbon.now.sh/
-  - https://shields.io/
-  - https://github.com/matiassingers/awesome-readme
+  - https://carbon.now.sh/ - make pictures of your code
+  - https://shields.io/ - get interactive banners like github download count, ready to add to github
+  - https://github.com/matiassingers/awesome-readme - examples of good readmes
 
-- Write in markdown
+- Writing in Markdown tutorial
   -https://www.youtube.com/watch?v=eJojC3lSkwg
