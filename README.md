@@ -3,10 +3,10 @@
 ![](code-snip.gif)
 
 
-### How to create nice README files
+## How to create nice README files
 https://carbon.now.sh/
 https://shields.io/
 https://github.com/matiassingers/awesome-readme
 
-### How to write markdown
+## How to write markdown
 https://www.youtube.com/watch?v=eJojC3lSkwg
