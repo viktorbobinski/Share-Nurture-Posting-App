@@ -14,7 +14,7 @@ short description what it is.
 
 - First 2 sheets have to populated: Groups DB & Content DB:
 
-![groups-db](groups-db.png)
+![groups-db](groups-db.PNG)
 
 ### Generate the calendar (the Schedule)
 
