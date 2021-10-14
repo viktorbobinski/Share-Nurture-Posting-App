@@ -43,9 +43,12 @@ Below are some examples:
 
 ## How to start using Content Scheduler
 
-- The easiest way is to first install the "Google Apps Script GitHub Assistnant" Google Chrome extension (https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo?hl=en), then fork the project on Github. 
-- Next make a copy of the "Content Scheduler" Google Spreadsheet (https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing) and go to the code section under "Tools > Script editor". Then, using the recently got extension, login to your Github account and pull the code from the forked repository.
-- The application is ready to use!
+- The easiest way is to first install the "Google Apps Script GitHub Assistant" Google Chrome extension (https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo?hl=en).
+- Fork this project on Github.
+- Make a copy of the "Content Scheduler" Google spreadsheet (https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing) 
+- Open the spreadsheet and go to the code section ("Tools > Script editor"). 
+- Using Apps Script GitHub Assistant, login to your Github account and pull the code from the forked repository into the spreadsheet.
+- Start using the application!
 
 ## Other
 - How to create nice README files
