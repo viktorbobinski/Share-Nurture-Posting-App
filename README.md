@@ -2,12 +2,19 @@
 
 short description what it is.
 
-![](gif_share-fb-post.gif) ![](gif_create-bitlink.gif)
+![share-fb-post](gif_share-fb-post.gif) 
+
+![create-bitlink](gif_create-bitlink.gif)
+
 
 
 ## Usage
 
 ### Provide groups & content
+
+- First 2 sheets have to populated: Groups DB & Content DB:
+
+![groups-db](groups-db.png)
 
 ### Generate the calendar (the Schedule)
 
