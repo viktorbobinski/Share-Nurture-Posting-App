@@ -33,13 +33,13 @@ Below are some examples:
 
 - marking a group for deletion
 
-![mark group for deletion](gif_mark group for deletion.gif)
+![mark group for deletion](gif_mark-group-for-deletion.gif)
 
 
 
 - replacing a posting person
 
-![replace volunteer](gif_replace voslunteer.gif)
+![replace volunteer](gif_replace-volunteer.gif)
 
 ## Installation
 
