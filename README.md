@@ -4,7 +4,7 @@ short description what it is.
 
 ![](code-snip.gif) 
 
-![](gif_create bitlink.gif)
+![](gif_create-bitlink.gif)
 
 
 ## Usage
