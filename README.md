@@ -33,13 +33,13 @@ Below are some examples:
 
 - marking a group for deletion
 
-![create-bitlink](gif_create-bitlink.gif)
+![mark group for deletion](gif_mark group for deletion.gif)
 
 
 
 - replacing a posting person
 
-![create-bitlink](gif_create-bitlink.gif)
+![replace volunteer](gif_replace voslunteer.gif)
 
 ## Installation
 
