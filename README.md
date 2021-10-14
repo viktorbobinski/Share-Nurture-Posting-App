@@ -22,7 +22,8 @@ Below are some examples:
 
 
 - creating a bitlink from a youtube link
-- the bitlink hold utm parameters which can be used to track best groups and content
+- the bitlink holds utm parameters which can be used to track best groups and content
+  - example: https://www.youtube.com/watch?v=46DnVgHD_FM/?utm_source=Best%20series%20on%20Netflix&utm_medium=fb&utm_campaign=poleng&utm_content=Most%20watched%20series%20on%20Netflix
 
 ![create-bitlink](gif_create-bitlink.gif)
 
