@@ -20,15 +20,19 @@ Content Scheduler can be used for:
 Below are some examples:
 
 - sharing a FB post between two sheets
+
 ![share-fb-post](gif_share-fb-post.gif) 
 
 - creating a bitlink from a youtube link
+
 ![create-bitlink](gif_create-bitlink.gif)
 
 - marking a group for deletion
+
 ![create-bitlink](gif_create-bitlink.gif)
 
 - replacing a posting person
+
 ![create-bitlink](gif_create-bitlink.gif)
 
 ## Installation
