@@ -7,6 +7,12 @@ short description what it is.
 
 ## Usage
 
+### Provide groups & content
+
+### Generate the calendar (the Schedule)
+
+### Use functions & share data between spreadsheets easily!
+
 ## Installation
 
 ## Other
