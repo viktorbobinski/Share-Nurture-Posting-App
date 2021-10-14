@@ -22,6 +22,7 @@ Below are some examples:
 
 
 - creating a bitlink from a youtube link
+- the bitlink hold utm parameters which can be used to track best groups and content
 
 ![create-bitlink](gif_create-bitlink.gif)
 
