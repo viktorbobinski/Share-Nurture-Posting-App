@@ -1,24 +1,35 @@
 # Project title
 
-short description what it is.
+Content Scheduler is an extension for Google Spreadsheets used for creating posting schedules for a Team of people.
 
-![share-fb-post](gif_share-fb-post.gif) 
+![schedule-sheet](schedule-sheet.PNG)
 
-![create-bitlink](gif_create-bitlink.gif)
+
 
 
 
 ## Usage
 
-### Provide groups & content
+Content Scheduler can be used for:
+  - generating a posting calendar for X weeks ahead
+  - creating bitly links from content url's
+  - sharing the posted link between sheets, the commenting person does not have to search for the links
+  - managing who has access to the spreadsheet, and what actions can be made by them
+  - updating groups in case someone is removed
 
-- First 2 sheets have to populated: Groups DB & Content DB:
+Below are some examples:
 
-![groups-db](groups-db.PNG) ![content-db](content-db.PNG) 
+- sharing a FB post between two sheets
+![share-fb-post](gif_share-fb-post.gif) 
 
-### Generate the calendar (the Schedule)
+- creating a bitlink from a youtube link
+![create-bitlink](gif_create-bitlink.gif)
 
-### Use functions & share data between spreadsheets easily!
+- marking a group for deletion
+![create-bitlink](gif_create-bitlink.gif)
+
+- replacing a posting person
+![create-bitlink](gif_create-bitlink.gif)
 
 ## Installation
 
