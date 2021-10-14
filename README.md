@@ -2,9 +2,7 @@
 
 short description what it is.
 
-![](gif_share-fb-post.gif) 
-
-![](gif_create-bitlink.gif)
+![](gif_share-fb-post.gif) ![](gif_create-bitlink.gif)
 
 
 ## Usage
