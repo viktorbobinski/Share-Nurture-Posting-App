@@ -1,11 +1,8 @@
-# Project title
+# Content Scheduler
 
 Content Scheduler is an extension for Google Spreadsheets used for creating posting schedules for a Team of people.
 
 ![schedule-sheet](schedule-sheet.PNG)
-
-
-
 
 
 ## Use cases
@@ -24,17 +21,14 @@ Below are some examples:
 ![share-fb-post](gif_share-fb-post.gif) 
 
 
-
 - creating a bitlink from a youtube link
 
 ![create-bitlink](gif_create-bitlink.gif)
 
 
-
 - marking a group for deletion
 
 ![mark group for deletion](gif_mark-group-for-deletion.gif)
-
 
 
 - replacing a posting person
