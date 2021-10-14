@@ -2,7 +2,7 @@
 
 short description what it is.
 
-![](code-snip.gif) 
+![](gif_share-fb-post.gif) 
 
 ![](gif_create-bitlink.gif)
 
