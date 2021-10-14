@@ -1,3 +1,4 @@
+//Looped queue is a queue which enqueues the element as soon as it gets dequeued. This makes the queue never loose a member, when we dequeue it, it goes to the end of the queue once again.
 class Queue {
 
   constructor() { 
@@ -16,8 +17,7 @@ class Queue {
   enqueue(element) {     
     this.items.push(element); 
   } 
-  
-  //This is a looped queue which always enqueues the dequeued value ~~is this even needed? 8/11/2020
+
   dequeue() {
     this.enqueue(this.front());
     return this.items.shift(); 

@@ -1,5 +1,6 @@
 var project = {
 
+//PROPERTIES FUNCTIONS / FUNCTIONS THAT RUN ON STARTUP
   resetProjectSettings() {
     PropertiesService.getScriptProperties().deleteAllProperties();
     project.deleteAllSheets();
@@ -45,7 +46,8 @@ var project = {
                   "eu.promotionsupport@ishafoundation.org", 
                   "dauciunas@gmail.com", 
                   "julia.jasinska97@gmail.com", 
-                  "radja.saminada@gmail.com"];
+                  "radja.saminada@gmail.com",
+                  "vikbobinski@gmail.com"];
 
     PropertiesService.getScriptProperties().setProperty("documentOwners", JSON.stringify(owners));
     ss.addEditors(owners);
@@ -114,6 +116,7 @@ var project = {
 
 
 
+//BITLY SETTINGS
   getBitlyToken() {
     return PropertiesService.getScriptProperties().getProperty('BITLY_TOKEN');          
   },
@@ -126,6 +129,7 @@ var project = {
   
 
 
+//CATEGORIES SETTINGS
   initialiseLanguages() {
     var languages = new Set();
     var groupsDBValues = groupsDBSheet.getValues();
@@ -185,7 +189,8 @@ var project = {
   },
 
 
-  
+
+//WEEK & BATCH SIZE SETTINGS
   getStartingWeek() {
     return parseInt(PropertiesService.getScriptProperties().getProperty("startingWeek"), 10);
   },
@@ -207,6 +212,7 @@ var project = {
   
 
 
+//DOCUMENT EDITORS SETTINGS
   getDocumentOwners() {
     return JSON.parse(PropertiesService.getScriptProperties().getProperty("documentOwners"));
   },
@@ -257,6 +263,8 @@ var project = {
   },
 
 
+
+//VOLUNTEER SETTINGS
   swapVolunteerProperties(oldName, newName) {
     var primaryValue = project.getNoRowsForVolunteer(oldName, "primary");
     var secondaryValue = project.getNoRowsForVolunteer(oldName, "secondary");
@@ -318,6 +326,7 @@ var project = {
   
 
 
+//ADVERTISEMENTS / ADS SETTINGS
   //load an IEO Ad after every x contents
   //f.e. when equal to 6 ads will appear every 7th week
   setIEOAdFrequency(frequency) {

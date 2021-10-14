@@ -1,4 +1,6 @@
-var input = {//change that textinput returns false and make it throw an error so everywhere the stupid check can be ommited
+
+var input = {
+  
   
   warningButtonInput(message) {
     var response = ui.alert("Warning", message, ui.ButtonSet.YES_NO);

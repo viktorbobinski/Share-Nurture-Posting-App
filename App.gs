@@ -64,6 +64,8 @@ function onEdit() {
   }
 }
 
+
+//FUNCTION UNDER ISHA TOOLS
 var app = {
   
   createBitlink() {  
@@ -244,7 +246,6 @@ var app = {
   },
 
   generateSchedule() {
-  // try {
     if (project.getDocumentOwners() == null) {
       project.initialiseDocumentOwners();
     }
@@ -260,8 +261,8 @@ var app = {
 
         var startingWeek = input.numberInput(messages.weekToStartTheGenerationFrom());
         var noWeeksToGenerate = input.numberInput(messages.numberOfWeeksToGenerate());    
-        var batchSize = 5;
-        var ieoAdFrequency = 6;
+        var batchSize = 3;
+        var ieoAdFrequency = 3;
         var weeksWithoutAds = 0;
       
         response = input.warningButtonInput(messages.reviewGenerateSchedule(startingWeek, noWeeksToGenerate, batchSize, ieoAdFrequency, weeksWithoutAds));
@@ -279,8 +280,5 @@ var app = {
       } else {
         ui.alert(messages.operationCanceled());
       }
-    // } catch(e) {
-    //   ui.alert("Error: generate Schedule", (e.message + e.fileName + e.lineNumber + e.columnNumber + " " + e.toString()), ui.ButtonSet.OK);
-    // }
   },
 }
