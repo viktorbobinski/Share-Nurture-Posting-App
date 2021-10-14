@@ -1,3 +1,3 @@
 # S-N-Country-Spreadsheet
 
-![](name-of-giphy.gif)
+![](code-snip.gif)
