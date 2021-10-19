@@ -1,4 +1,4 @@
-# A content posting scheduler - provides functionality behind Share&Nurture volunteers' posting spreadsheet
+# A content posting scheduler - functionality behind Share&Nurture volunteers' posting spreadsheet
 
 This is an extension for Google Spreadsheets used for creating posting schedules for a Team of volunteers:
 https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit#gid=1071128398
