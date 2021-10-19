@@ -64,7 +64,7 @@ Rowfinder class
 - Using Apps Script GitHub Assistant, login to your Github account and pull the code from the forked repository into the spreadsheet.
 - Start using the application!
 
-Share&Nurture Dashboard works with this application, it is the spreadsheet which provides functionality for checking the click count on Bitly links: https://github.com/moononfire/Content-Scheduler-Dashboard_appsscript
+Share&Nurture Dashboard works with this application, it is the spreadsheet which provides functionality for checking the click count on Bitly links: https://github.com/moononfire/Share-Nurture-Dashboard_appsscript
 
 ## Other
 - How to create nice README files
