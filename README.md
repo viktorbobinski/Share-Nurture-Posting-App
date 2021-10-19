@@ -45,7 +45,6 @@ Once the primary volunteer puts the link to the Facebook post, it gets automatic
 Changes the volunteer name throughout the spreadsheet and manages access to the spreadsheet.
 
 ![replace volunteer](gif_replace-volunteer.gif)
- Scheduler Dashboard, under: https://github.com/moononfire/Content-Scheduler-Dashboard_appsscript
 
 ## Code snippets
 
@@ -64,6 +63,8 @@ Rowfinder class
 - Open the spreadsheet and go to the code section ("Tools > Script editor"). 
 - Using Apps Script GitHub Assistant, login to your Github account and pull the code from the forked repository into the spreadsheet.
 - Start using the application!
+
+Share&Nurture Dashboard works with this application, it is the spreadsheet which provides functionality for checking the click count on Bitly links: https://github.com/moononfire/Content-Scheduler-Dashboard_appsscript
 
 ## Other
 - How to create nice README files
