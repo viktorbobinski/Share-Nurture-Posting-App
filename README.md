@@ -2,7 +2,7 @@
 
 This is the Posting App for the Share&Nurture Team at Isha Foundation. 
 
-The application is used for creating a posting schedule and is a platform for a Team of Volunteers, which are posting content related to Yoga on Facebook groups
+The application is used for creating a posting schedule and is a platform for a Team of Volunteers, which are posting content related to Yoga on Facebook groups.
 
 Link to the spreadsheet: https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit#gid=1071128398
 
