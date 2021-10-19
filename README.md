@@ -1,40 +1,46 @@
-# A content posting scheduler - functionality behind Share&Nurture volunteers' posting spreadsheet
+# Share&Nurture Posting App
 
-This is an extension for Google Spreadsheets used for creating posting schedules for a Team of volunteers:
+This is the Posting App for the Share&Nurture Team at Isha Foundation. It is used for creating a posting schedule and is a platform for a Team of Volunteers, which are posting content related to Yoga on Facebook groups:
 https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit#gid=1071128398
+//change this the spreadsheet so it has actual isha content there...
 
 ![schedule-sheet](schedule-sheet.PNG)
 
+## Basic characteristics
 
-## Use cases
+- Google Apps Script (JavaScript)
+- Object-Oriented structure
+- Many custom functions in UI (Isha Tools tab, see examples below)
+- API calls to the Bitly API for generating Bitly links (UrlFetchApp.fetch())
+- Spreadsheet project properties managment
+- Managing spreadsheet access
+- Creating sheets from a template with values provided by user
+- Manipulating cells with values provided by user
+- Automatically updating values in different sheets when specific information is provided (example #1 below)
+- Posting schedule creation includes business logic (f.e. using backup content if ads are not allowed in the Fb group)
 
-This functionality is used for:
-  - generating a posting calendar for X weeks ahead
-  - creating bitly links from content url's
-  - sharing the posted link between sheets, the commenting person does not have to search for the links
-  - managing access to the spreadsheet, and what actions can be made by who
-  - updating groups in case someone is removed
+## Examples
 
-Below are some examples:
-
-- sharing a FB post between two sheets
+### #1 sharing a FB post between two sheets
+Once the primary volunteer puts the link to the Facebook post, it gets automatically shared with the secondary volunteer.
 
 ![share-fb-post](gif_share-fb-post.gif) 
 
 
-- creating a bitlink from a youtube link
-  - the bitlink holds utm parameters which can be used to track best groups and content
-  - example: https://www.youtube.com/watch?v=46DnVgHD_FM/?utm_source=Best%20series%20on%20Netflix&utm_medium=fb&utm_campaign=poleng&utm_content=Most%20watched%20series%20on%20Netflix
+### #2 creating a Bitly link from a Youtube link with Bitly API
+  - Custom UTM parameters: https://www.youtube.com/watch?v=46DnVgHD_FM/?utm_source=Best%20series%20on%20Netflix&utm_medium=fb&utm_campaign=poleng&utm_content=Most%20watched%20series%20on%20Netflix
+  - UTM parameters are used for tracking which groups/contents are best
 
 ![create-bitlink](gif_create-bitlink.gif)
 
 
-- marking a group for deletion
+### #3 marking a group for deletion
 
 ![mark group for deletion](gif_mark-group-for-deletion.gif)
 
 
-- replacing a posting person
+### #4 replacing a posting person
+This function changes the values in the spreadsheet and also manages 
 
 ![replace volunteer](gif_replace-volunteer.gif)
 
@@ -43,9 +49,18 @@ Below are some examples:
  - information kept is: ?utm_source=Best%20series%20on%20Netflix&utm_medium=fb&utm_campaign=poleng&utm_content=Most%20watched%20series%20on%20Netflix
  - Using this information + knowing which bitlink has how many clicks from the Bitly API, we can get the information on our best group and content. This is done by the Content Scheduler Dashboard, under: https://github.com/moononfire/Content-Scheduler-Dashboard_appsscript
 
+## Code snippets
+
+Bitly API call
+![bitlyservice-code](bitlyservice-code.png)
+
+Rowfinder class
+![bitlyservice-code](bitlyservice-code.png)
+
 ## How to start using Content Scheduler
 
 - The easiest way is to first install the "Google Apps Script GitHub Assistant" Google Chrome extension (https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo?hl=en).
+  - Alternatively copy all files from this Github into the code section ("Tools > Script editor")..
 - Fork this project on Github.
 - Make a copy of the "Content Scheduler" Google spreadsheet (https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing) 
 - Open the spreadsheet and go to the code section ("Tools > Script editor"). 
