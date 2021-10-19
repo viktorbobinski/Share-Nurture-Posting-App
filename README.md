@@ -10,7 +10,7 @@ Link to the spreadsheet: https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhR
 
 ## Basic characteristics
 
-- Google Apps Script (JavaScript)
+- written in Google Apps Script (JavaScript)
 - Object-Oriented structure
 - Many custom functions in UI (Isha Tools tab, see examples below)
 - API calls to the Bitly API for generating Bitly links (UrlFetchApp.fetch())
