@@ -42,7 +42,7 @@ Once the primary volunteer puts the link to the Facebook post, it gets automatic
 
 
 ### #4 replacing a posting person
-This function changes the values in the spreadsheet and also manages 
+Changes the volunteer name throughout the spreadsheet and manages access to the spreadsheet.
 
 ![replace volunteer](gif_replace-volunteer.gif)
  Scheduler Dashboard, under: https://github.com/moononfire/Content-Scheduler-Dashboard_appsscript
