@@ -1,17 +1,18 @@
-# Content Scheduler
+# A content posting scheduler - provides functionality behind Share&Nurture volunteers' posting spreadsheet
 
-Content Scheduler is an extension for Google Spreadsheets used for creating posting schedules for a Team of people.
+This is an extension for Google Spreadsheets used for creating posting schedules for a Team of volunteers:
+https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit#gid=1071128398
 
 ![schedule-sheet](schedule-sheet.PNG)
 
 
 ## Use cases
 
-Content Scheduler can be used for:
+This functionality is used for:
   - generating a posting calendar for X weeks ahead
   - creating bitly links from content url's
   - sharing the posted link between sheets, the commenting person does not have to search for the links
-  - managing who has access to the spreadsheet, and what actions can be made by them
+  - managing access to the spreadsheet, and what actions can be made by who
   - updating groups in case someone is removed
 
 Below are some examples:
