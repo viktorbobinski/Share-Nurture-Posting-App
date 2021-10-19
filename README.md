@@ -31,7 +31,7 @@ Once the primary volunteer puts the link to the Facebook post, it gets automatic
 
 ### #2 creating a Bitly link from a Youtube link with Bitly API
   - Custom UTM parameters: https://www.youtube.com/watch?v=46DnVgHD_FM/?utm_source=Best%20series%20on%20Netflix&utm_medium=fb&utm_campaign=poleng&utm_content=Most%20watched%20series%20on%20Netflix
-  - UTM parameters are used for tracking which groups/contents are best
+  - UTM parameters are later used by a different application for tracking which groups/contents are best.
 
 ![create-bitlink](gif_create-bitlink.gif)
 
