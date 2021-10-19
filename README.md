@@ -55,7 +55,7 @@ Bitly API call
 ![bitlyservice-code](bitlyservice-code.png)
 
 Rowfinder class
-![bitlyservice-code](bitlyservice-code.png)
+![rowfinder-code](rowfinder-code.png)
 
 ## How to start using Content Scheduler
 
