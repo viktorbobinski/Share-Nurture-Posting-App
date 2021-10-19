@@ -1,8 +1,10 @@
 # Share&Nurture Posting App
 
-This is the Posting App for the Share&Nurture Team at Isha Foundation. It is used for creating a posting schedule and is a platform for a Team of Volunteers, which are posting content related to Yoga on Facebook groups:
-https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit#gid=1071128398
-//change this the spreadsheet so it has actual isha content there...
+This is the Posting App for the Share&Nurture Team at Isha Foundation. 
+
+The application is used for creating a posting schedule and is a platform for a Team of Volunteers, which are posting content related to Yoga on Facebook groups
+
+Link to the spreadsheet: https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit#gid=1071128398
 
 ![schedule-sheet](schedule-sheet.PNG)
 
@@ -57,12 +59,12 @@ Bitly API call
 Rowfinder class
 ![rowfinder-code](rowfinder-code.PNG)
 
-## How to start using Content Scheduler
+## How to start using Share&Nurture Posting App
 
 - The easiest way is to first install the "Google Apps Script GitHub Assistant" Google Chrome extension (https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo?hl=en).
-  - Alternatively copy all files from this Github into the code section ("Tools > Script editor")..
+  - Alternatively copy all files from this Github into the code section ("Tools > Script editor").
 - Fork this project on Github.
-- Make a copy of the "Content Scheduler" Google spreadsheet (https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing) 
+- Make a copy of the Google spreadsheet (https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing) 
 - Open the spreadsheet and go to the code section ("Tools > Script editor"). 
 - Using Apps Script GitHub Assistant, login to your Github account and pull the code from the forked repository into the spreadsheet.
 - Start using the application!
