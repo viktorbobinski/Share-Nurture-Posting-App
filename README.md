@@ -52,10 +52,10 @@ This function changes the values in the spreadsheet and also manages
 ## Code snippets
 
 Bitly API call
-![bitlyservice-code](bitlyservice-code.png)
+![bitlyservice-code](bitlyservice-code.PNG)
 
 Rowfinder class
-![rowfinder-code](rowfinder-code.png)
+![rowfinder-code](rowfinder-code.PNG)
 
 ## How to start using Content Scheduler
 
