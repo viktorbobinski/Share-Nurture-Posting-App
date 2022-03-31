@@ -6,7 +6,7 @@ The application is used for creating a posting schedule and is a platform for a 
 
 Link to the spreadsheet: https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing
 
-![schedule-sheet](/Share-Nurture-Posting-App/images/schedule-sheet.PNG)
+![schedule-sheet](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/schedule-sheet.png)
 
 ## Basic characteristics
 
@@ -33,7 +33,7 @@ Once the primary volunteer puts the link to the Facebook post, it gets automatic
   - Custom UTM parameters: https://www.youtube.com/watch?v=46DnVgHD_FM/?utm_source=Best%20series%20on%20Netflix&utm_medium=fb&utm_campaign=poleng&utm_content=Most%20watched%20series%20on%20Netflix
   - UTM parameters are later used by a different application for tracking which groups/contents are best by calling the Bitly API for click count.
 
-![create-bitlink](gif_create-bitlink.gif)
+![create-bitlink](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/gif_create-bitlink.gif)
 
 
 ### #3 marking a group for deletion
