@@ -6,7 +6,7 @@ The application is used for creating a posting schedule and is a platform for a 
 
 Link to the spreadsheet: https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhRyN-DG1fK8AJcUzxy-IGMHVpcl6wY/edit?usp=sharing
 
-![schedule-sheet](./images/schedule-sheet.PNG)
+![schedule-sheet](/Share-Nurture-Posting-App/images/schedule-sheet.PNG)
 
 ## Basic characteristics
 
