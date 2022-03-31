@@ -26,7 +26,7 @@ Link to the spreadsheet: https://docs.google.com/spreadsheets/d/1aEwVAFVsE5zDzhR
 ### #1 sharing a FB post between two sheets
 Once the primary volunteer puts the link to the Facebook post, it gets automatically shared with the secondary volunteer.
 
-![share-fb-post](gif_share-fb-post.gif) 
+![share-fb-post](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/gif_share-fb-post.gif) 
 
 
 ### #2 creating a Bitly link from a Youtube link with Bitly API
@@ -38,21 +38,21 @@ Once the primary volunteer puts the link to the Facebook post, it gets automatic
 
 ### #3 marking a group for deletion
 
-![mark group for deletion](gif_mark-group-for-deletion.gif)
+![mark group for deletion](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/gif_mark-group-for-deletion.gif)
 
 
 ### #4 replacing a posting person
 Changes the volunteer name throughout the spreadsheet and manages access to the spreadsheet.
 
-![replace volunteer](gif_replace-volunteer.gif)
+![replace volunteer](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/gif_replace-volunteer.gif)
 
 ## Code snippets
 
 Bitly API call
-![bitlyservice-code](bitlyservice-code.PNG)
+![bitlyservice-code](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/bitlyservice-code.png)
 
 Rowfinder class
-![rowfinder-code](rowfinder-code.PNG)
+![rowfinder-code](https://github.com/viktorbobinski/Share-Nurture-Posting-App/blob/master/images/rowfinder-code.png)
 
 ## How to start using Share&Nurture Posting App
 
